@@ -81,4 +81,18 @@ cost:	string(decimal)
 }
 
 
+*Запуск в Docker*
 
+Клонировать репозиторий
+https://github.com/SlabchenkoNikolay/testovoe_hh_Alex_Markov.git
+
+Перейти в директорию над уровнем counter
+
+Выполнить билд проекта
+docker-compose build
+
+Запустить контейнер
+docker-compose up -d
+
+Перейти на
+http://127.0.0.1:8000/api/counter/
