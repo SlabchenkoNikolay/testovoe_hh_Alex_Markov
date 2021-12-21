@@ -86,7 +86,8 @@ cost:	string(decimal)
 Клонировать репозиторий
 https://github.com/SlabchenkoNikolay/testovoe_hh_Alex_Markov.git
 
-Перейти в директорию над уровнем counter
+Перейти в директорию testovoe_hh_Alex_Markov
+cd testovoe_hh_Alex_Markov
 
 Выполнить билд проекта
 docker-compose build
