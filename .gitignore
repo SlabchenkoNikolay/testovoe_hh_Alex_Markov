@@ -39,3 +39,4 @@ env/
 !/static/.gitkeep
 # Secrets
 secrets.json
+/venv/
